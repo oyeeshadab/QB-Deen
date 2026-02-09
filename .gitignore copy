@@ -1,0 +1,115 @@
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Node
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================
+# Environment files
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# Metro / React Native
+# ========================
+.expo/
+.metro-health-check*
+.react-native/
+
+# ========================
+# Android (React Native)
+# ========================
+android/.gradle/
+android/build/
+android/local.properties
+android/.idea/
+android/*.iml
+
+# App build outputs
+android/app/build/
+android/app/release/
+android/app/debug/
+
+# Native build / CMake / NDK (CRITICAL)
+android/app/.cxx/
+.cxx/
+build/
+.gradle/
+android/app/.externalNativeBuild/
+android/app/.ninja*
+android/app/**/.ninja_*
+android/app/**/CMakeFiles/
+android/app/**/build.ninja
+android/app/**/compile_commands.json*
+android/app/**/.cmake/
+
+# Keystore
+android/app/debug.keystore
+*.keystore
+
+# ========================
+# iOS
+# ========================
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+!ios/*.xcworkspace/contents.xcworkspacedata
+ios/*.xcodeproj/*
+!ios/*.xcodeproj/project.pbxproj
+!ios/*.xcodeproj/xcshareddata/
+ios/*.xcuserstate
+ios/.xcuserdatad/
+
+# ========================
+# Fastlane
+# ========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# ========================
+# Coverage
+# ========================
+coverage/
+
+# ========================
+# TypeScript
+# ========================
+*.tsbuildinfo
+
+# ========================
+# Editor
+# ========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# Temporary files
+# ========================
+*.swp
+*.tmp
+
+# ========================
+# Mac
+# ========================
+.AppleDouble
+.LSOverride
