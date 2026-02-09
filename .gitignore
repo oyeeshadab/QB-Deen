@@ -137,3 +137,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+<<<<<<< HEAD
+# Custom ignores
+.DS_Store
+=======
+# QBDeen specific
+/ios/Pods
+>>>>>>> branch-to-merge
